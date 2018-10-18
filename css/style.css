@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: #0d0d0d;
+}
+
+h1{
+    color: red;
+}
+
+h3{
+    color: white;
+}
+
+canvas{
+    border: 3px solid lime;
+    background-color: black;
+    float: left;
+}
+
+#main{
+    width: 500px;
+    margin: auto;
+}
+
+#inner{
+    border: 1px solid red;
+    background-color: #262626;
+    width: 250px;
+    height: 406px;
+    float: right;
+}
+
+#controls{
+    text-align: left;
+    margin-left: 10px;
+}

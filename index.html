@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tetris</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Tetris</h1>
+        
+        </br>
+        <div id="main">
+            <canvas id="mycanvas" ></canvas></canvas>
+            <div id = "inner">
+                <h3 id= "score_text">Score: 0</h3>
+                <h3 id= "level_text">Level: 0</h3>
+                <h3 id= "line_text">Lines: 0</h3>
+                <button onclick="init()">New Game</button>
+                <button id="pause_button" onclick="pause()">Pause</button>
+                <div id = "controls">
+                    <h3>A: Shift Left</h3>
+                    <h3>D: Shift Right</h3>
+                    <h3>W: Rotate Counterclockwise</h3>
+                    <h3>S: Rotate Clockwise</h3>
+                    <h3>X: Speed Drop</h3>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <script type="text/javascript" src="js/index.js"></script>
+</html>
